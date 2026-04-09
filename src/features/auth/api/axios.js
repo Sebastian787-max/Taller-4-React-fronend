@@ -6,7 +6,7 @@ import axios from 'axios';
 * - headers comunes
 */
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL || 'http://localhost:3000/api',
+    baseURL: import.meta.env.VITE_API_URL || 'https://taller-4-react-backend-7.onrender.com/api',
     headers: { 'Content-Type': 'application/json' }
 });
 // Interceptor para adjuntar el token si existe:
