@@ -81,22 +81,26 @@ export const Content = () => {
                             Administra, controla y optimiza tus finanzas de forma inteligente con nuestra API MoneyFlow.
                         </Typography>
 
-                        <Button
-                            variant="contained"
-                            sx={{
-                                backgroundColor: "#06d6f1",
-                                px: 3,
-                                py: 1.2,
-                                borderRadius: "30px",
-                                textTransform: "none",
-                                fontSize: "14px",
-                                "&:hover": {
-                                    backgroundColor: "#e85a47"
-                                }
-                            }}
-                        >
-                            Explorar productos →
-                        </Button>
+                       <Button
+    component="a"
+    href="https://github.com/Sebastian787-max/Taller-4-React-fronend.git"
+    target="_blank"
+    rel="noopener noreferrer"
+    variant="contained"
+    sx={{
+        backgroundColor: "#06d6f1",
+        px: 3,
+        py: 1.2,
+        borderRadius: "30px",
+        textTransform: "none",
+        fontSize: "14px",
+        "&:hover": {
+            backgroundColor: "#e85a47"
+        }
+    }}
+>
+    Mi Repositorio →
+</Button>
                     </Box>
 
                     {/* IMAGEN */}
